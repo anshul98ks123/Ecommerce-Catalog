@@ -1,0 +1,369 @@
+{
+  "mobileAndComputer": [
+    {
+      "product":"Oneplus 5 64GB",
+      "price":"32999",
+      "seller":"Oneplus India",
+      "quantity":"5",
+      "img":"img/0.jpg",
+      "cod":"true",
+      "id":"0"
+    },
+
+    {
+      "product":"Hp Spectre",
+      "price":"89999",
+      "seller":"BBK Electronics",
+      "quantity":"15",
+      "img":"img/1.png",
+      "cod":"false",
+      "id":"1"
+    },
+
+    {
+      "product":"Microsoft Surface Pro 4",
+      "price":"114999",
+      "seller":"Microsoft India",
+      "quantity":"7",
+      "img":"img/2.jpg",
+      "cod":"false",
+      "id":"2"
+    },
+
+    {
+      "product":"Dell Alienware 17",
+      "price":"149999",
+      "seller":"Dell Inc.",
+      "quantity":"9",
+      "img":"img/3.png",
+      "cod":"false",
+      "id":"3"
+    },
+
+    {
+      "product":"Galaxy S8 plus",
+      "price":"56999",
+      "seller":"BBK Electronics",
+      "quantity":"11",
+      "img":"img/4.jpg",
+      "cod":"false",
+      "id":"4"
+    },
+
+    {
+      "product":"Redmi Note 4",
+      "price":"9999",
+      "seller":"Mi India",
+      "quantity":"33",
+      "img":"img/5.jpeg",
+      "cod":"true",
+      "id":"5"
+    },
+
+    {
+      "product":"Apple iPad 64GB",
+      "price":"46999",
+      "seller":"Apple Inc.",
+      "quantity":"3",
+      "img":"img/6.png",
+      "cod":"false",
+      "id":"6"
+    },
+
+    {
+      "product":"Nvidia GTX 1080",
+      "price":"47999",
+      "seller":"Linus Tech",
+      "quantity":"6",
+      "img":"img/7.png",
+      "cod":"true",
+      "id":"7"
+    },
+
+    {
+      "product":"Dell 5040 AllinOne",
+      "price":"72999",
+      "seller":"Dell Inc",
+      "quantity":"2",
+      "img":"img/8.jpg",
+      "cod":"false",
+      "id":"8"
+    }
+  ],
+
+  "electronics": [
+    {
+      "product":"Sony Bravia 55",
+      "price":"214999",
+      "seller":"Vishal Sales",
+      "quantity":"5",
+      "img":"img/9.jpeg",
+      "cod":"false",
+      "id":"9"
+    },
+
+    {
+      "product":"Whirlpool Multi-door",
+      "price":"23999",
+      "seller":"Chroma",
+      "quantity":"9",
+      "img":"img/10.jpg",
+      "cod":"true",
+      "id":"10"
+    },
+
+    {
+      "product":"PS4 Pro",
+      "price":"36999",
+      "seller":"BBK Electronics",
+      "quantity":"7",
+      "img":"img/11.png",
+      "cod":"false",
+      "id":"11"
+    },
+
+    {
+      "product":"Voltas 1.5ton split",
+      "price":"38999",
+      "seller":"BBK Electronics",
+      "quantity":"8",
+      "img":"img/12.jpg",
+      "cod":"false",
+      "id":"12"
+    },
+
+    {
+      "product":"Canon 80D",
+      "price":"98999",
+      "seller":"Canon India",
+      "quantity":"12",
+      "img":"img/13.jpg",
+      "cod":"false",
+      "id":"13"
+    },
+
+    {
+      "product":"Kent RO",
+      "price":"13999",
+      "seller":"PureGuard",
+      "quantity":"15",
+      "img":"img/14.jpg",
+      "cod":"true",
+      "id":"14"
+    },
+
+    {
+      "product":"Sony CyberShot",
+      "price":"12999",
+      "seller":"Sony Inc.",
+      "quantity":"14",
+      "img":"img/15.jpg",
+      "cod":"true",
+      "id":"15"
+    },
+
+    {
+      "product":"Bosch 7kg FrontLoad",
+      "price":"34999",
+      "seller":"BBK Electronics",
+      "quantity":"22",
+      "img":"img/16.jpg",
+      "cod":"true",
+      "id":"16"
+    },
+
+    {
+      "product":"LG Inverter AC",
+      "price":"44999",
+      "seller":"Kattar Electronics",
+      "quantity":"27",
+      "img":"img/17.jpg",
+      "cod":"false",
+      "id":"17"
+    }
+  ],
+
+  "furniture": [
+    {
+      "product":"Adorn India Sofa",
+      "price":"11999",
+      "seller":"Adorn India",
+      "quantity":"5",
+      "img":"img/18.jpg",
+      "cod":"true",
+      "id":"18"
+    },
+
+    {
+      "product":"Royal Oak Table",
+      "price":"18999",
+      "seller":"Royal Oak",
+      "quantity":"9",
+      "img":"img/19.jpg",
+      "cod":"false",
+      "id":"19"
+    },
+
+    {
+      "product":"FabHomedecor Edo",
+      "price":"15999",
+      "seller":"FabHomedecor",
+      "quantity":"7",
+      "img":"img/20.jpg",
+      "cod":"false",
+      "id":"20"
+    },
+
+    {
+      "product":"Forzza Shelly Bed",
+      "price":"8999",
+      "seller":"Forrza",
+      "quantity":"8",
+      "img":"img/21.jpg",
+      "cod":"true",
+      "id":"21"
+    },
+
+    {
+      "product":"Maark TV Unit",
+      "price":"89999",
+      "seller":"Maark",
+      "quantity":"12",
+      "img":"img/22.jpeg",
+      "cod":"false",
+      "id":"22"
+    },
+
+    {
+      "product":"Hudson Mark Wardrobe",
+      "price":"10999",
+      "seller":"Generic",
+      "quantity":"15",
+      "img":"img/23.jpg",
+      "cod":"true",
+      "id":"23"
+    },
+
+    {
+      "product":"DecorNation Wall Shelf",
+      "price":"1999",
+      "seller":"BBK Electronics",
+      "quantity":"14",
+      "img":"img/24.jpg",
+      "cod":"true",
+      "id":"24"
+    },
+
+    {
+      "product":"Urban Ladder Chair",
+      "price":"3999",
+      "seller":"Urban Ladder",
+      "quantity":"22",
+      "img":"img/25.jpg",
+      "cod":"true",
+      "id":"25"
+    },
+
+    {
+      "product":"Supreme Outdoor Set",
+      "price":"11999",
+      "seller":"BBK Electronics",
+      "quantity":"27",
+      "img":"img/26.JPG",
+      "cod":"false",
+      "id":"26"
+    }
+  ],
+
+  "fashion": [
+    {
+      "product":"Nike Men's Shoes",
+      "price":"2399",
+      "seller":"Nike",
+      "quantity":"5",
+      "img":"img/27.jpg",
+      "cod":"false",
+      "id":"27"
+    },
+
+    {
+      "product":"Supendry Men's Polo",
+      "price":"4499",
+      "seller":"Cotton County",
+      "quantity":"9",
+      "img":"img/28.jpg",
+      "cod":"true",
+      "id":"28"
+    },
+
+    {
+      "product":"Adidas DRose Shoes",
+      "price":"12599",
+      "seller":"Adidas India",
+      "quantity":"7",
+      "img":"img/29.jpg",
+      "cod":"false",
+      "id":"29"
+    },
+
+    {
+      "product":"Casio Enticer Watch",
+      "price":"4299",
+      "seller":"Casio",
+      "quantity":"8",
+      "img":"img/30.jpg",
+      "cod":"true",
+      "id":"30"
+    },
+
+    {
+      "product":"Lenovo Laptop Bag",
+      "price":"599",
+      "seller":"ShopIndia",
+      "quantity":"12",
+      "img":"img/31.jpg",
+      "cod":"true",
+      "id":"31"
+    },
+
+    {
+      "product":"Nike Air Max",
+      "price":"10999",
+      "seller":"Nike",
+      "quantity":"15",
+      "img":"img/32.jpg",
+      "cod":"false",
+      "id":"32"
+    },
+
+    {
+      "product":"Adidas Men's Jacket",
+      "price":"5999",
+      "seller":"Adidas",
+      "quantity":"14",
+      "img":"img/33.jpg",
+      "cod":"false",
+      "id":"33"
+    },
+
+    {
+      "product":"G-Shock Blue",
+      "price":"34999",
+      "seller":"G-Schoc",
+      "quantity":"22",
+      "img":"img/34.jpg",
+      "cod":"false",
+      "id":"34"
+    },
+
+    {
+      "product":"Levi's Men Jeans",
+      "price":"1299",
+      "seller":"Levi's",
+      "quantity":"27",
+      "img":"img/35.jpg",
+      "cod":"true",
+      "id":"35"
+    }
+  ]
+}

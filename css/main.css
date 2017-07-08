@@ -1,0 +1,190 @@
+.panels {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:20px
+}
+
+ul.indicators{
+    /*padding-bottom: 55px;*/
+    z-index: 9;
+}
+
+nav{
+    font-size: 20px;
+}
+
+nav, .page-footer{
+    background-color: #e3565b;
+    z-index: 999999999;
+}
+
+.panel {
+    background:#6B0F9C;
+    height: 400px;
+    box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+    color:white;
+    text-align: center;
+    align-items:center;
+    transition:
+            font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+            flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+            background 0.2s;
+    font-size: 8px;
+    background-size:cover;
+    background-position:center;
+    justify-content: center;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+
+}
+
+.panel1 { background-image:url(http://i.dell.com/sites/imagecontent/app-merchandizing/responsive/LearnSegment/alienware/assets/en/PublishingImages/alienware_images/Laptops%20-%20Grey.jpg); }
+.panel2 { background-image:url(http://www.geappliances.com/assets/images/products/energy-star-landing-banner.jpg    ); }
+.panel3 { background-image:url(https://krishnafurniture.com/uploads/category/440/c16b7900b134b5bb1cc54a8736a11b15.jpg); }
+.panel4 { background-image:url(http://www.craveonline.com/assets/uploads/2015/01/Mens-Fashion-Apps.png); }
+
+/* Flex Items */
+.panel > * {
+    margin:0;
+    width: 100%;
+    transition:transform 0.5s;
+    flex: 1 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel > *:first-child { transform: translateY(-100%); opacity: 0;}
+.panel.open-active > *:first-child { transform: translateY(0); opacity: 1;}
+.panel > *:last-child { transform: translateY(100%); opacity: 0;}
+.panel.open-active > *:last-child { transform: translateY(0); opacity: 1;}
+
+.panel p {
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 2em;
+}
+.panel p:nth-child(2) {
+    font-size: 4em;
+}
+
+.panel.open {
+    flex:2;
+    font-size:8px;
+}
+
+.panel a{
+    color:white;
+}
+
+hr{
+    width: 100px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.heading{
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 45px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.regularText{
+    list-style-type: none;
+    font-family: 'Lora', serif;
+    padding: 0px 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+        position: relative;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#animation{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fc4c4f;
+}
+
+.box{
+    width: 33%;
+    height: 33%;
+    float: left;
+    background-color: white;
+    animation: loader 0.3s 2 ease-in-out;
+}
+
+.outer{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 18% auto;
+}
+
+@keyframes loader {
+    0%,70%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(0,0,1);
+        opacity: 0.1;
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
+}
+
+.s7{
+    animation-delay: 0.05s;
+}
+.s4,.s8{
+    animation-delay: 0.1s;
+}
+.s1,.s5,.s9{
+    animation-delay: 0.15s;
+}
+.s2,.s6{
+    animation-delay: 0.2s;
+}
+.s3{
+    animation-delay: 0.25s;
+}
+
+.animate{
+    animation: fade 0.5s ease-in-out;
+    display: block !important;
+}
+
+#box2{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .outer{
+        height: 100px;
+        width: 100px;
+        margin: 60% auto;
+    }
+}

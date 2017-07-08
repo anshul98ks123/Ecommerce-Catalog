@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#009688">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="css/materialize.css">
+      <script src="js/jquery-3.2.1.js"></script>
+      <script src="js/materialize.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Shopkart</title>
+        <link rel="icon" href="http://www.inmotionhosting.com/support/images/stories/icons/ecommerce/empty-cart-light.png">
+    </head>
+    <body>
+
+    <div id="animation">
+        <div class="outer">
+            <div class="box s1"></div>
+            <div class="box s2"></div>
+            <div class="box s3"></div>
+            <div class="box s4"></div>
+            <div class="box s5"></div>
+            <div class="box s6"></div>
+            <div class="box s7"></div>
+            <div class="box s8"></div>
+            <div class="box s9"></div>
+        </div>
+</div>
+
+<div id="box2">
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i> ShopKart</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a id='but2' href="#modal1">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="content">
+                    <h1 style="color:teal;">ShopKart</h1>
+                    <h3 style="color:teal;">A fresh approach to shopping</h3>
+                    <hr><br>
+                    <a href="#modal1" id="but"><button class="btn btn-default btn-lg"> <i  class="fa fa-shopping-bag" aria-hidden="true"></i> Get Started!</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <form class="col s12" method="post" action="user.html">
+                    <div class="row">
+                        <h3 class="center-align teal-text"> Login Form</h3>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix teal-text">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate black-text" required>
+                            <label for="icon_prefix">Username</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix teal-text">https</i>
+                            <input id="icon_telephone" type="password" class="validate black-text" required>
+                            <label for="icon_telephone">Password</label>
+                        </div>
+                    </div>
+                    <button style="margin:0 45%" class="offset-s3 btn waves-effect waves-light center-align" type="submit" name="action">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script>
+      window.onload = setTimeout(function() {
+          document.getElementById("animation").remove();
+          document.querySelector("#box2").classList.add("animate");
+      },600);
+    $('#but').click(function () {
+        $('#modal1').modal();
+    });
+    $('#but2').click(function () {
+        $('#modal1').modal();
+    });
+    $('#modal-close').click(function () {
+        $('#modal1').modal();
+    });
+  </script>
+</body>
+</html>

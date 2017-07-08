@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: url(https://2.bp.blogspot.com/-1zyNk1vb2T4/Vx4HDlu3kNI/AAAAAAAAEmg/jlDgeb1P1bwkOXAziivK8peDATCRaHoHACLcB/s1600/Desain%2Bblog.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#content{
+    text-align: center;
+    padding-top: 20%;
+    text-shadow: 0px 4px 3px rgba(255,255,255,0.4),
+                 0px 8px 13px rgba(255,255,255,0.1),
+                 0px 18px 23px rgba(255,255,255,0.1);
+}
+
+nav {
+    background-color: teal;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+hr{
+    width:350px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0,2);
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+        position: relative;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#animation{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1abc9c;
+}
+
+.box{
+    width: 33%;
+    height: 33%;
+    float: left;
+    background-color: white;
+    animation: loader 0.3s 2 ease-in-out;
+}
+
+.outer{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 18% auto;
+}
+
+@keyframes loader {
+    0%,70%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(0,0,1);
+        opacity: 0.1;
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
+}
+
+.s7{
+    animation-delay: 0.05s;
+}
+.s4,.s8{
+    animation-delay: 0.1s;
+}
+.s1,.s5,.s9{
+    animation-delay: 0.15s;
+}
+.s2,.s6{
+    animation-delay: 0.2s;
+}
+.s3{
+    animation-delay: 0.25s;
+}
+
+.animate{
+    animation: fade 0.5s ease-in-out;
+    display: block !important;
+}
+
+#box2{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .outer{
+        height: 100px;
+        width: 100px;
+        margin: 60% auto;
+    }
+}
